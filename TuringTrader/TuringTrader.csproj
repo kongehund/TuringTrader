@@ -19,6 +19,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Demo01_Indicators.cs" />
+    <Compile Remove="Demo02_SingleAssets.cs" />
+    <Compile Remove="Demo03_Portfolios.cs" />
+    <Compile Remove="Demo05_Optimizer.cs" />
+    <Compile Remove="Demo06_OrderTypes.cs" />
+    <Compile Remove="Demo07_ChildAlgos.cs" />
+    <Compile Remove="Demo08_CustomData.cs" />
+    <Compile Remove="Demo10_CustomIndicators.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AvalonLibrary" Version="3.0.0" />
     <PackageReference Include="NetOfficeFw.Core" Version="1.9.3">
       <NoWarn>NU1701</NoWarn>
